@@ -1,1 +1,1 @@
-asdasdasd
+prompt('Test JS');
