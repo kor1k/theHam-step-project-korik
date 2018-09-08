@@ -1,6 +1,52 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.top_bg_img {
+    background-image: url("../images/bg_header.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_bar {
+    background-color: rgba(73, 71, 63, 0.5);
+}
+
+.nav_bar_top_logo_img {
+    padding-right: 4rem;
+}
+
+.nav_bar_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav_bar_top_li, .nav_bar_top_li_home {
+    display: inline-block;
+    padding: 30px 16px;
+}
+
+.nav_bar_top_li_home {
+    border-bottom: 2px solid #18cfab;
+}
+
+.nav_bar_top_li_home:hover {
+    background-color: #18cfab;
+}
+
+.nav_bar_top_a, .nav_bar_top_a_h {
+    color: white;
+}
+
+
