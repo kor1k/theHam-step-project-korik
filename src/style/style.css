@@ -31,8 +31,15 @@
     align-items: center;
 }
 
-.nav_bar_top_ul {
-    margin: -2px;
+.nav_bar_top_ul, .search_logo {
+    /*padding: 10px;*/
+    padding-top: 20px;
+    margin: -1px;
+}
+
+.search_logo {
+    width: 19px;
+    height: 18px;
 }
 
 
@@ -52,5 +59,59 @@
 .nav_bar_top_a, .nav_bar_top_a_h {
     color: #b8b8b8;
 }
+
+
+.main_view {
+    /*padding-top: 20rem;*/
+    color: royalblue;
+    font-size: 20px;
+}
+
+
+.title_wp_theme, .title_creative, .title_buy_and_enjoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_wp_theme {
+    padding-top: 246px;
+    color: white;
+    font-size: 2.188rem;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.272;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.title_wp_theme_green {
+    font-size: 2.188rem;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.272;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    color: #18cfab;
+}
+
+.title_creative {
+    padding-top: 45px;
+    color: #ffffff;
+    font-size: 4.938rem;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.937;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0005);
+}
+
+.title_buy_and_enjoy {
+    padding-top: 20px;
+    color: #d4d4d4;
+    font-size: 2.125rem;/* Приближение из-за подстановки шрифтов */
+    /*font-weight: 300;*/
+    line-height: 2.176;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0005);
+}
+
+.
+
 
 
