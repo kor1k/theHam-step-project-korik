@@ -1,0 +1,55 @@
+/** {*/
+    /*text-decoration: none;*/
+    /*list-style: none;*/
+    /*font-family: Montserrat, sans-serif;*/
+/*}*/
+
+/*.container {*/
+    /*width: 1200px;*/
+    /*margin: 0 auto;*/
+    /*padding: 0 20px;*/
+/*}*/
+
+
+
+/*.purchase_bg {*/
+    /*background-image: url("../images/purchase_block_bg.png");*/
+    /*height: 470px;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+/*}*/
+
+/*.purchase_title_buy_and_install {*/
+    /*padding-top: 120px;*/
+    /*color: #18cfab;*/
+    /*font-size: 2.5rem;!* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 700;*/
+    /*line-height: 1;!* Приближение из-за подстановки шрифтов *!*/
+    /*text-align: center;*/
+/*}*/
+
+/*.purchase_title_smooth_reliable {*/
+    /*padding-top: 35px;*/
+    /*color: #d8d8d8;*/
+    /*font-size: 1rem;!* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 400;*/
+    /*line-height: 2.5;!* Приближение из-за подстановки шрифтов *!*/
+    /*text-align: center;*/
+/*}*/
+
+/*.purchase_btn {*/
+    /*color: white;*/
+    /*border-radius: 4px;*/
+    /*background-color: #18cfab;*/
+    /*width: 165px;*/
+    /*height: 61px;*/
+/*}*/
+
+/*.purchase_button {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*padding-top: 60px;*/
+/*}*/
+
+
