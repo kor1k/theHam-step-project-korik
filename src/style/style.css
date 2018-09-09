@@ -58,6 +58,10 @@
     color: #b8b8b8;
 }
 
+.nav_bar_top_a_h {
+    color: #18cfab;
+}
+
 .main_view {
     /*padding-top: 20rem;*/
     color: royalblue;
@@ -143,7 +147,6 @@
     background-position: center;
 }
 
-
 .test_test_test {
     color: #00cbf6;
     background-color: #d4d4d4;
@@ -153,18 +156,18 @@
 .purchase_title_buy_and_install {
     padding-top: 120px;
     color: #18cfab;
-    font-size: 2.5rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1;/* Приближение из-за подстановки шрифтов */
+    line-height: 1;
     text-align: center;
 }
 
 .purchase_title_smooth_reliable {
     padding-top: 35px;
     color: #d8d8d8;
-    font-size: 1rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 2.5;/* Приближение из-за подстановки шрифтов */
+    line-height: 2.5;
     text-align: center;
 }
 
@@ -177,19 +180,120 @@
 }
 
 .purchase_button {
+    font-size: 13px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
 }
 
-.huinya {
-    color: red;
-    font-size: 50px;
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.features_block1, .features_block2, .features_block3, .features_block4 {
+    width: 480px;
+    height: 370px;
+}
 
+.features_block1, .features_block3 {
+    background-color: green;
+}
 
+.features_block2, .features_block4 {
+     background-color: gainsboro;
+}
 
+.our_amazing_title {
+    padding-top: 90px;
+    color: #4e4e4e;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 1.111;
+    text-align: center;
+}
 
+.hr1 {
+    color: #18cfab;
+    width: 70px;
+}
 
+.hr2 {
+    width: 78px;
+    color: #18cfab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_amazing_lines {
+    padding-top: 40px;
+}
+
+.our_amazing_buttons_bar {
+    padding-top: 70px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.cell {
+    width: 250px;
+    height: 200px;
+    border: 1px solid grey;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: lightgray;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.our_amazing_load_more_button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.our_amazing_load_more_btn {
+    font-weight:bold;
+    color: white;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+}
+
+.plus {
+    width: 16px;
+    /*height: 16px;*/
+    font-weight: bold;
+}
+
+.bg_our_amazing_block {
+    background-image: url("../images/bg_our_amazing.png");
+    /*height: 100vh;*/
+    background-size: cover;
+    background-position: center;
+}
+
+.break_news {
+    font-size: 40px;
+}
+
+.our_amazing_btn:active {
+    /*font-size: 30px;*/
+    background-color: #4e4e4e;
+}
