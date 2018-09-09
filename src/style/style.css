@@ -33,8 +33,7 @@
 
 .nav_bar_top_ul, .search_logo {
     /*padding: 10px;*/
-    padding-top: 20px;
-    margin: -1px;
+    margin: -2px;
 }
 
 .search_logo {
@@ -42,10 +41,9 @@
     height: 18px;
 }
 
-
 .nav_bar_top_li, .nav_bar_top_li_home {
     display: inline-block;
-    padding: 30px 16px;
+    padding: 60px 16px;
 }
 
 .nav_bar_top_li_home {
@@ -60,13 +58,11 @@
     color: #b8b8b8;
 }
 
-
 .main_view {
     /*padding-top: 20rem;*/
     color: royalblue;
     font-size: 20px;
 }
-
 
 .title_wp_theme, .title_creative, .title_buy_and_enjoy {
     display: flex;
@@ -77,16 +73,16 @@
 .title_wp_theme {
     padding-top: 246px;
     color: white;
-    font-size: 2.188rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 2.188rem; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 0.272;/* Приближение из-за подстановки шрифтов */
+    line-height: 0.272; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
 .title_wp_theme_green {
-    font-size: 2.188rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 2.188rem; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 0.272;/* Приближение из-за подстановки шрифтов */
+    line-height: 0.272; /* Приближение из-за подстановки шрифтов */
     text-align: center;
     color: #18cfab;
 }
@@ -94,9 +90,9 @@
 .title_creative {
     padding-top: 45px;
     color: #ffffff;
-    font-size: 4.938rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 4.938rem; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 0.937;/* Приближение из-за подстановки шрифтов */
+    line-height: 0.937; /* Приближение из-за подстановки шрифтов */
     text-align: center;
     transform: scaleX(1.0005);
 }
@@ -104,14 +100,41 @@
 .title_buy_and_enjoy {
     padding-top: 20px;
     color: #d4d4d4;
-    font-size: 2.125rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 2.125rem; /* Приближение из-за подстановки шрифтов */
     /*font-weight: 300;*/
-    line-height: 2.176;/* Приближение из-за подстановки шрифтов */
+    line-height: 2.176; /* Приближение из-за подстановки шрифтов */
     text-align: center;
     transform: scaleX(1.0005);
 }
 
-.
+.main_view_btn1 {
+    width: 166px;
+    height: 61px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #18cfab;
+    margin-right: 28px;
+}
+
+.main_view_btn2 {
+    width: 166px;
+    height: 61px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #00cbf6;
+}
+
+.main_view_buttons {
+    padding-top: 111px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
