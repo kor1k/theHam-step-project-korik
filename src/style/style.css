@@ -29,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .nav_bar_top_ul, .search_logo {
@@ -233,15 +234,23 @@
     padding-top: 40px;
 }
 
-.our_amazing_buttons_bar {
-    padding-top: 70px;
-    height: 58px;
+.our_amazing_bar {
     display: flex;
     justify-content: center;
-    padding-bottom: 70px;
+    align-items: center;
 }
 
+
+/*.our_amazing_buttons_bar {*/
+    /*padding-top: 70px;*/
+    /*height: 58px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*padding-bottom: 70px;*/
+/*}*/
+
 .cell {
+    background-image: url("../images/layer_our_amazing1.jpg");
     width: 250px;
     height: 200px;
     border: 1px solid grey;
@@ -250,7 +259,6 @@
     justify-content: center;
     align-items: center;
     color: black;
-    background-color: lightgray;
 }
 
 .row {
@@ -293,7 +301,52 @@
     font-size: 40px;
 }
 
-.our_amazing_btn:active {
-    /*font-size: 30px;*/
-    background-color: #4e4e4e;
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    font-size: 30px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.our_amazing_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_amazing_bar_options, .our_amazing_bar_options_green {
+    margin-left: 10px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 60px;*/
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    color: #717171;
+    font-size: 20px;
+    /*line-height: 3;*/
+    padding-top: 5px;
+    margin-bottom: 70px;
+    /*padding-bottom: 70px;*/
+    box-sizing: border-box;
+}
+
+.our_amazing_bar_options_green {
+    /*margin-left: 10px;*/
+    width: 90px;
+    box-shadow: 0px -9px 0px -4px rgba(24,207,171,1);
+    color: #18cfab;
+}
+
+.hr2{
+    margin-bottom: 50px;
 }
