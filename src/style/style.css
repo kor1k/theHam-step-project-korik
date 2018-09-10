@@ -348,8 +348,8 @@
     margin-bottom: 50px;
 }
 
-.cell1, .cell4 {
-    background-image: url("../images/layer_our_amazing1.png");
+.cell1, .cell3, .cell6 {
+    background-image: url("../images/our_layout1.png");
     width: 252px;
 }
 
@@ -371,7 +371,7 @@
 
 .footer_green {
     color: #18cfab;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-siz8e: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     line-height: 1.857;/* Приближение из-за подстановки шрифтов */
     text-align: left;
