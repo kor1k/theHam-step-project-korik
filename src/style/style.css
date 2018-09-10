@@ -205,7 +205,7 @@
 }
 
 .features_block2, .features_block4 {
-     background-color: gainsboro;
+    background-color: gainsboro;
 }
 
 .our_amazing_title {
@@ -240,13 +240,12 @@
     align-items: center;
 }
 
-
 /*.our_amazing_buttons_bar {*/
-    /*padding-top: 70px;*/
-    /*height: 58px;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*padding-bottom: 70px;*/
+/*padding-top: 70px;*/
+/*height: 58px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*padding-bottom: 70px;*/
 /*}*/
 
 .cell {
@@ -276,7 +275,7 @@
 }
 
 .our_amazing_load_more_btn {
-    font-weight:bold;
+    font-weight: bold;
     color: white;
     border-radius: 4px;
     background-color: #18cfab;
@@ -308,6 +307,7 @@
     background-color: blue;
     font-size: 30px;
 }
+
 .features {
     display: flex;
     justify-content: center;
@@ -323,30 +323,64 @@
 }
 
 .our_amazing_bar_options, .our_amazing_bar_options_green {
-    margin-left: 10px;
     width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 60px;*/
-    box-sizing: border-box;
     border: 1px solid gainsboro;
     color: #717171;
     font-size: 20px;
-    /*line-height: 3;*/
     padding-top: 5px;
     margin-bottom: 70px;
-    /*padding-bottom: 70px;*/
     box-sizing: border-box;
 }
 
 .our_amazing_bar_options_green {
     /*margin-left: 10px;*/
     width: 90px;
-    box-shadow: 0px -9px 0px -4px rgba(24,207,171,1);
+    box-shadow: 0px -9px 0px -4px rgba(24, 207, 171, 1);
     color: #18cfab;
 }
 
-.hr2{
+.hr2 {
     margin-bottom: 50px;
+}
+
+.cell1, .cell4 {
+    background-image: url("../images/layer_our_amazing1.png");
+    width: 252px;
+}
+
+.footer {
+    background-color: #22353f;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content {
+    /*color: white;*/
+    /*font-size: 20px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+    color: #aeaeae;
+    font-size: 17px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 1.857;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer_green {
+    color: #18cfab;
+    font-size: 17px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 1.857;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer:hover {
+    color: white;
 }
