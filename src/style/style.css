@@ -250,11 +250,11 @@
 /*padding-bottom: 70px;*/
 /*}*/
 
-.cell {
-    background-image: url("../images/layer_our_amazing1.jpg");
+.cell_1, .cell_2, .cell_3, .cell_4, .cell_5, .cell_6, .cell_7, .cell_8, .cell_9, .cell_10, .cell_11, .cell_12 {
+    /*background-image: url("../images/layer_our_amazing1.jpg");*/
     width: 250px;
     height: 200px;
-    border: 1px solid grey;
+    border: 1px solid white;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -348,10 +348,64 @@
     margin-bottom: 50px;
 }
 
-.cell1, .cell3, .cell6 {
+.cell_1 {
+    background-image: url("../images/theHam_logo_top.png");
+    background-repeat: no-repeat;
+    width: 250px;
+}
+
+.cell_2 {
+    background-image: url("../images/our_layer_59.png");
+    width: 252px;
+}
+
+.cell_3 {
+    background-image: url("../images/our_layer_78.png");
+    width: 252px;
+}
+.cell_4 {
+    background-image: url("../images/our_layer_90.png");
+    width: 252px;
+}
+.cell_5 {
+    background-image: url("../images/our_layer_123.png");
+    background-repeat: no-repeat;
+    width: 252px;
+}
+.cell_6 {
     background-image: url("../images/our_layout1.png");
     width: 252px;
 }
+.cell_7 {
+    background-image: url("../images/our_layer_123.png");
+
+    width: 252px;
+}
+.cell_8 {
+    background-image: url("../images/our_layer_123.png");
+
+    width: 252px;
+}
+.cell_9 {
+    background-image: url("../images/our_layer_123.png");
+
+    width: 252px;
+}
+.cell_10 {
+    background-image: url("../images/our_layer_123.png");
+    width: 252px;
+}
+.cell_11 {
+    background-image: url("../images/our_layer_180.png");
+    width: 252px;
+}
+.cell_12 {
+    background-image: url("../images/our_layout_1000.png");
+    width: 252px;
+}
+
+
+
 
 .footer {
     background-color: #22353f;
