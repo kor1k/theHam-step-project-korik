@@ -19,6 +19,8 @@
 
 .nav_bar {
     background-color: rgba(73, 71, 63, 0.5);
+    /*position: fixed;*/
+    /*width: 1920px;*/
 }
 
 .nav_bar_top_logo_img {
@@ -360,14 +362,8 @@
 }
 
 .footer_content {
-    /*color: white;*/
-    /*font-size: 20px;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-
     color: #aeaeae;
-    font-size: 17px;/* Приближение из-за подстановки шрифтов */
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     line-height: 1.857;/* Приближение из-за подстановки шрифтов */
     text-align: left;
@@ -375,12 +371,12 @@
 
 .footer_green {
     color: #18cfab;
-    font-size: 17px;/* Приближение из-за подстановки шрифтов */
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     line-height: 1.857;/* Приближение из-за подстановки шрифтов */
     text-align: left;
 }
 
-.footer:hover {
+.footer_content:hover {
     color: white;
 }
