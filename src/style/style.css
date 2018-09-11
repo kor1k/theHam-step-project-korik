@@ -7,7 +7,7 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .top_bg_img {
@@ -284,7 +284,7 @@
     height: 61px;
 }
 
-.plus {
+.plus_1 {
     width: 16px;
     /*height: 16px;*/
     font-weight: bold;
@@ -297,24 +297,23 @@
 }
 
 .break_news {
-
     font-size: 40px;
 }
 
 /*.services {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*background-color: blue;*/
-    /*font-size: 30px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*background-color: blue;*/
+/*font-size: 30px;*/
 /*}*/
 
 /*.features {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*background-color: yellow;*/
-    /*font-size: 30px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*background-color: yellow;*/
+/*font-size: 30px;*/
 /*}*/
 
 .our_amazing_bar {
@@ -340,7 +339,6 @@
 }
 
 .our_amazing_bar_options_green {
-    /*margin-left: 10px;*/
     width: 90px;
     box-shadow: 0px -8px 0px -5px rgba(24, 207, 171, 1);
     color: #18cfab;
@@ -353,30 +351,36 @@
 .cell_1 {
     background-image: url("../images/theHam_logo_top.png");
     background-size: cover;
+    background-size: cover;
 }
 
 .cell_2 {
     background-image: url("../images/our_layer_59.png");
+    background-size: cover;
     width: 252px;
 }
 
 .cell_3 {
     background-image: url("../images/our_layer_78.png");
+    background-size: cover;
     width: 252px;
 }
 
 .cell_4 {
     background-image: url("../images/our_layer_90.png");
+    background-size: cover;
     width: 252px;
 }
 
 .cell_5 {
     background-image: url("../images/our_layer_123.png");
+    background-size: cover;
     width: 252px;
 }
 
 .cell_6 {
     background-image: url("../images/our_layout1.png");
+    background-size: cover;
     width: 252px;
 }
 
@@ -399,7 +403,7 @@
 }
 
 .cell_10 {
-    background-image: url("../images/our_online-support.jpeg");
+    background-image: url("../images/our_layout_1000.png");
     background-size: cover;
     /*background-position: center;*/
     width: 252px;
@@ -407,17 +411,68 @@
 
 .cell_11 {
     background-image: url("../images/our_layer_180.png");
+    background-size: cover;
     width: 252px;
 }
 
 .cell_12 {
     background-image: url("../images/our_layout_1000.png");
+    background-size: cover;
     width: 252px;
 }
 
+.gallery_bg {
+    background-image: url("../images/bg_our_amazing.png");
+    background-size: cover;
+    background-position: center;
+}
 
+.gallery {
 
+}
 
+.gallery_title {
+    padding-top: 100px;
+    color: #4e4e4e;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gallery_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    font-size: 100px;
+
+}
+
+.gallery_button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.gallery_load_more_btn {
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+}
+
+.plus_2 {
+    width: 16px;
+    /*height: 16px;*/
+    font-weight: bold;
+}
 
 .footer {
     background-color: #22353f;
