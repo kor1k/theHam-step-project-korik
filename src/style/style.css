@@ -1,6 +1,195 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.top_bg_img {
+    background-image: url("../images/bg_header.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_bar {
+    background-color: rgba(73, 71, 63, 0.5);
+}
+
+.nav_bar_top_logo_img {
+    padding-right: 4rem;
+}
+
+.nav_bar_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_bar_top_ul, .search_logo {
+    /*padding: 10px;*/
+    margin: -2px;
+}
+
+.search_logo {
+    width: 19px;
+    height: 18px;
+}
+
+.nav_bar_top_li, .nav_bar_top_li_home {
+    display: inline-block;
+    padding: 60px 16px;
+}
+
+.nav_bar_top_li_home {
+    border-bottom: 2px solid #18cfab;
+}
+
+.nav_bar_top_li_home:hover {
+    background-color: #18cfab;
+}
+
+.nav_bar_top_a, .nav_bar_top_a_h {
+    color: #b8b8b8;
+}
+
+.main_view {
+    /*padding-top: 20rem;*/
+    color: royalblue;
+    font-size: 20px;
+}
+
+.title_wp_theme, .title_creative, .title_buy_and_enjoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_wp_theme {
+    padding-top: 246px;
+    color: white;
+    font-size: 2.188rem; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.272; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.title_wp_theme_green {
+    font-size: 2.188rem; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.272; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    color: #18cfab;
+}
+
+.title_creative {
+    padding-top: 45px;
+    color: #ffffff;
+    font-size: 4.938rem; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 0.937; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0005);
+}
+
+.title_buy_and_enjoy {
+    padding-top: 20px;
+    color: #d4d4d4;
+    font-size: 2.125rem; /* Приближение из-за подстановки шрифтов */
+    /*font-weight: 300;*/
+    line-height: 2.176; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0005);
+}
+
+.main_view_btn1 {
+    width: 166px;
+    height: 61px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #18cfab;
+    margin-right: 28px;
+}
+
+.main_view_btn2 {
+    width: 166px;
+    height: 61px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #00cbf6;
+}
+
+.main_view_buttons {
+    padding-top: 111px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchase_bg {
+    background-image: url("../images/purchase_block_bg.png");
+    height: 470px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.test_test_test {
+    color: #00cbf6;
+    background-color: #d4d4d4;
+    font-size: 20px;
+}
+
+.purchase_title_buy_and_install {
+    padding-top: 120px;
+    color: #18cfab;
+    font-size: 2.5rem;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 1;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.purchase_title_smooth_reliable {
+    padding-top: 35px;
+    color: #d8d8d8;
+    font-size: 1rem;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 2.5;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.purchase_btn {
+    color: white;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+}
+
+.purchase_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.huinya {
+    color: red;
+    font-size: 50px;
+}
+
+
+
+
+
+
