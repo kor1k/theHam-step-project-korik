@@ -501,3 +501,17 @@
 .footer_content:hover {
     color: white;
 }
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 370px;
+
+}
