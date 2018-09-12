@@ -7,7 +7,7 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .top_bg_img {
@@ -19,6 +19,8 @@
 
 .nav_bar {
     background-color: rgba(73, 71, 63, 0.5);
+    /*position: fixed;*/
+    /*width: 1920px;*/
 }
 
 .nav_bar_top_logo_img {
@@ -29,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .nav_bar_top_ul, .search_logo {
@@ -56,6 +59,10 @@
 
 .nav_bar_top_a, .nav_bar_top_a_h {
     color: #b8b8b8;
+}
+
+.nav_bar_top_a_h {
+    color: #18cfab;
 }
 
 .main_view {
@@ -143,7 +150,6 @@
     background-position: center;
 }
 
-
 .test_test_test {
     color: #00cbf6;
     background-color: #d4d4d4;
@@ -153,18 +159,18 @@
 .purchase_title_buy_and_install {
     padding-top: 120px;
     color: #18cfab;
-    font-size: 2.5rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1;/* Приближение из-за подстановки шрифтов */
+    line-height: 1;
     text-align: center;
 }
 
 .purchase_title_smooth_reliable {
     padding-top: 35px;
     color: #d8d8d8;
-    font-size: 1rem;/* Приближение из-за подстановки шрифтов */
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 2.5;/* Приближение из-за подстановки шрифтов */
+    line-height: 2.5;
     text-align: center;
 }
 
@@ -177,19 +183,321 @@
 }
 
 .purchase_button {
+    font-size: 13px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
 }
 
-.huinya {
-    color: red;
-    font-size: 50px;
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.features_block1, .features_block2, .features_block3, .features_block4 {
+    width: 480px;
+    height: 370px;
+}
 
+.features_block1, .features_block3 {
+    background-color: green;
+}
 
+.features_block2, .features_block4 {
+    background-color: gainsboro;
+}
 
+.our_amazing_title {
+    padding-top: 90px;
+    color: #4e4e4e;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 1.111;
+    text-align: center;
+}
 
+.hr1 {
+    color: #18cfab;
+    width: 70px;
+}
 
+.hr2 {
+    width: 78px;
+    color: #18cfab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_amazing_lines {
+    padding-top: 40px;
+}
+
+.our_amazing_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/*.our_amazing_buttons_bar {*/
+/*padding-top: 70px;*/
+/*height: 58px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*padding-bottom: 70px;*/
+/*}*/
+
+.cell_1, .cell_2, .cell_3, .cell_4, .cell_5, .cell_6, .cell_7, .cell_8, .cell_9, .cell_10, .cell_11, .cell_12 {
+    width: 250px;
+    height: 200px;
+    border: 1px solid white;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: black;*/
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.our_amazing_load_more_button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.our_amazing_load_more_btn {
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+}
+
+.plus_1 {
+    width: 16px;
+    /*height: 16px;*/
+    font-weight: bold;
+}
+
+.bg_our_amazing_block {
+    background-image: url("../images/bg_our_amazing.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.break_news {
+    font-size: 40px;
+}
+
+/*.services {*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*background-color: blue;*/
+/*font-size: 30px;*/
+/*}*/
+
+/*.features {*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*background-color: yellow;*/
+/*font-size: 30px;*/
+/*}*/
+
+.our_amazing_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*font-weight: 400;*/
+    font-weight: normal
+}
+
+.our_amazing_bar_options, .our_amazing_bar_options_green {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    color: #717171;
+    font-size: 20px;
+    /*padding-top: 60px;*/
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.our_amazing_bar_options_green {
+    width: 90px;
+    box-shadow: 0px -8px 0px -5px rgba(24, 207, 171, 1);
+    color: #18cfab;
+}
+
+.hr2 {
+    margin-bottom: 80px;
+}
+
+.cell_1 {
+    background-image: url("../images/theHam_logo_top.png");
+    background-size: cover;
+    background-size: cover;
+}
+
+.cell_2 {
+    background-image: url("../images/our_layer_59.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_3 {
+    background-image: url("../images/our_layer_78.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_4 {
+    background-image: url("../images/our_layer_90.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_5 {
+    background-image: url("../images/our_layer_123.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_6 {
+    background-image: url("../images/our_layout1.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_7 {
+    background-image: url("../images/our_layer_5.jpg");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_8 {
+    background-image: url("../images/our_amazing_int3.jpg");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_9 {
+    background-image: url("../images/our_amazing_int4.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_10 {
+    background-image: url("../images/our_layout_1000.png");
+    background-size: cover;
+    /*background-position: center;*/
+    width: 252px;
+}
+
+.cell_11 {
+    background-image: url("../images/our_layer_180.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.cell_12 {
+    background-image: url("../images/our_layout_1000.png");
+    background-size: cover;
+    width: 252px;
+}
+
+.gallery_bg {
+    background-image: url("../images/bg_our_amazing.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery {
+
+}
+
+.gallery_title {
+    padding-top: 100px;
+    color: #4e4e4e;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gallery_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    font-size: 100px;
+
+}
+
+.gallery_button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.gallery_load_more_btn {
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+}
+
+.plus_2 {
+    width: 16px;
+    /*height: 16px;*/
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #22353f;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content {
+    color: #aeaeae;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 1.857; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer_green {
+    color: #18cfab;
+    font-siz8e: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 1.857; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer_content:hover {
+    color: white;
+}
