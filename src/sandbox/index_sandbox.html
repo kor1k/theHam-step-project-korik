@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>SANDOX OF STEP PROJECT</title>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style_sandbox.css">
 </head>
 <body>
@@ -81,25 +83,14 @@
 
 <!--</div>-->
 
-
-<!-- #modal - это id элемента DIV, который будет определен в коде ниже -->
-<a href="#modal" name="modal">Простое модельное окно</a>
-
-<!-- #customize - здесь будет располагаться модальное окно -->
-<div id="modal" class="modalwindow">
-
-    <!-- Заголовок модального окна -->
-    <h2>Простое jQuery модальное окно</h2>
-
-    <!-- кнопка закрытия окна определяется как класс close -->
-    <a href="#" class="close">X</a>
-
-    <div class="content">
-        <!-- Содержимое модального окна -->
+    <button id="puchaseBtn">PURCHASE NOW</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi deleniti eligendi enim error esse ipsam nesciunt quis ratione sed.
+            <p>Modal window!</p>
+        </div>
     </div>
-
-</div>
-
 
 <script src="script_sandbox.js"></script>
 </body>

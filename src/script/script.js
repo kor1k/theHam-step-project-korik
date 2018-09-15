@@ -1,2 +1,18 @@
-let loadMore = document.getElementsByClassName('our_amazing_load_more_button');
-// console.log(document);
+let modal = document.getElementById('myModal');
+let btn = document.getElementById('puchaseBtn');
+let span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function () {
+    modal.style.display = "block";
+};
+
+span.onclick = function () {
+    modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+    if (event.target == modal){
+        modal.style.display = "none";
+    }
+
+};
