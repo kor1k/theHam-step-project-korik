@@ -2,6 +2,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Montserrat, sans-serif;
+    /*background-attachment: fixed;*/
 }
 
 .container {
@@ -179,6 +180,8 @@
     font-weight: 400;
     line-height: 40px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
+    box-sizing: border-box;
+    border: 1px solid white;
 
 }
 
@@ -186,7 +189,7 @@
 
     display: flex;
     /*background-color: #18CFAB;*/
-    background-color: lightgray;
+    background-color: #fffcfc;
     justify-content: center;
     align-items: center;
     color: black;
@@ -207,6 +210,7 @@
 .service_img {
     padding-top: 25px;
     padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 .service_text_block {
@@ -375,10 +379,121 @@
     background-position: center;
 }
 
-.break_news {
-    font-size: 40px;
-    padding-bottom: 130px;
+.breaking_news_title {
+    padding-top: 83px;
+    padding-bottom: 30px;
+    color: #4e4e4e;
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
 }
+
+.breaking_images_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717171;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.breaking_by_admin {
+    color: #777777;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.breaking_by_admin, .breaking_amazing_img_post {
+    display: inline-block;
+
+    padding-left: 28px;
+}
+
+.breaking_amazing_img_post:hover {
+    color: #18CFAB;
+}
+
+.breaking_img_1, .breaking_img_2, .breaking_img_3, .breaking_img_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breaking_img_1 {
+    background-image: url("../images/layer_breaking_news_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+    /*padding-right: 28px;*/
+}
+
+.breaking_img_2 {
+    background-image: url("../images/layer_breaking_news_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    margin-left: 28px;
+    /*margin-right: 28px;*/
+    height: 208px;
+}
+
+.breaking_img_3 {
+    background-image: url("../images/layer_breaking_news_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 28px;
+    width: 263px;
+    height: 208px;
+}
+
+.breaking_img_4 {
+    background-image: url("../images/layer_breaking_news_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+}
+
+/*.breaking_img_5 {*/
+/*background-image: url("../images/layer_breaking_news_5.png");*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*width: 263px;*/
+/*height: 208px;*/
+/*}*/
+
+/*.breaking_img_6 {*/
+/*background-image: url("../images/layer_breaking_news_6.png");*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*width: 263px;*/
+/*height: 208px;*/
+/*}*/
+
+/*.breaking_img_7 {*/
+/*background-image: url("../images/layer_breaking_news_7.png");*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*width: 263px;*/
+/*height: 208px;*/
+/*}*/
+
+/*.breaking_img_8 {*/
+/*background-image: url("../images/layer_breaking_news_8.png");*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*width: 263px;*/
+/*height: 208px;*/
+/*}*/
+
+
 
 /*.services {*/
 /*display: flex;*/
@@ -418,10 +533,10 @@
     box-sizing: border-box;
 }
 
-.our_amazing_bar_options_green {
-    width: 90px;
-    box-shadow: 0px -8px 0px -5px rgba(24, 207, 171, 1);
-    color: #18cfab;
+.our_amazing_bar_options:active {
+    /*width: 90px;*/
+    background-color: #18cfab;
+    /*color: #18cfab;*/
 }
 
 .hr2 {
@@ -430,7 +545,6 @@
 
 .cell_1 {
     background-image: url("../images/theHam_logo_top.png");
-    background-size: cover;
     background-size: cover;
 }
 
@@ -502,6 +616,7 @@
 }
 
 .gallery_bg {
+
     background-image: url("../images/bg_our_amazing.png");
     background-size: cover;
     background-position: center;
@@ -703,9 +818,9 @@
     padding-top: 100px;
     padding-bottom: 40px;
     color: #ffffff;
-    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
@@ -720,26 +835,26 @@
 .people_say_text {
     padding-top: 43px;
     color: #bbbbbb;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
-    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    line-height: 30px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
 .people_name_in_people_say {
     padding-top: 43px;
     color: #18cfab;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    line-height: 27px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
 .people_job_title {
     color: #bbbbbb;
-    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-size: 13px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
-    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    line-height: 27px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
