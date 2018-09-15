@@ -471,10 +471,6 @@
     background-position: center;
 }
 
-.gallery {
-
-}
-
 .gallery_title {
     padding-top: 100px;
     color: #4e4e4e;
@@ -485,14 +481,7 @@
     padding-bottom: 25px;
 }
 
-.gallery_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    font-size: 100px;
 
-}
 
 .gallery_button {
     font-size: 16px;
@@ -713,5 +702,45 @@
     border-radius: 4px;
     background-color: #00cbf6;
 }
+/* Box-sizing reset: http://w3bits.com/?p=3225 */
+html {
+    box-sizing: border-box;
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
+/* The Masonry Container */
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+/* The Masonry Brick */
+.item {
+
+    display: inline-block;
+    background: #fff;
+    padding: 1.5em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+}
+.wrapper {
+    width: 95%;
+    margin: 1.5em auto;
+}
