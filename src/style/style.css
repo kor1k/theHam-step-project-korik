@@ -17,7 +17,6 @@
     background-position: center;
 }
 
-
 .nav_bar {
     background-color: rgba(73, 71, 63, 0.5);
     /*position: fixed;*/
@@ -143,12 +142,30 @@
     align-items: center;
 }
 
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;;
+}
+
+.block-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 370px;
+}
+
 .title_services {
     padding-top: 82px;
     color: #4e4e4e;
-    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
     padding-bottom: 37px;
 }
@@ -158,12 +175,13 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-size: 15.98px;/* Приближение из-за подстановки шрифтов */
+    font-size: 15.98px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 
 }
+
 .services_btn_2, .services_btn_3, .services_btn_4, .services_btn_5, .services_btn_6 {
 
     display: flex;
@@ -255,6 +273,22 @@
     padding-top: 60px;
 }
 
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 370px;
+
+}
+
 .our_amazing_title {
     padding-top: 90px;
     color: #4e4e4e;
@@ -343,6 +377,7 @@
 
 .break_news {
     font-size: 40px;
+    padding-bottom: 130px;
 }
 
 /*.services {*/
@@ -546,65 +581,6 @@
 .footer_content:hover {
     color: white;
 }
-.features{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.block-features1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 370px;
-    background: #1C2A33 url("../images/forma1.png") no-repeat center top 60px;
-    color: #18CFAB;
-    margin:auto;
-    border-top: 5px solid #18cfab;
-
-}
-.block-features2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 370px;
-    background: #18CFAB url("../images/forma2.png") no-repeat center top 80px;
-    color: #ffffff;
-    margin:auto;
-    border-top: 5px solid #ffffff;
-
-
-}
-.block-features3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 370px;
-    background: #1C2A33 url("../images/forma3.png") no-repeat center top 62px;
-    color: #18CFAB;
-    margin:auto;
-    border-top: 5px solid #18cfab;
-
-
-
-}
-.block-features4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 370px;
-    background: #18CFAB url("../images/forma4.png") no-repeat center top 80px;
-    color: #ffffff;
-    margin:auto;
-    border-top: 5px solid #ffffff;
-
-
-}
 
 /*EBUCHAYA MODALKA*//*EBUCHAYA MODALKA*//*EBUCHAYA MODALKA*//*EBUCHAYA MODALKA*/
 
@@ -626,9 +602,7 @@
     padding: 20px;
     border: 1px solid #888;
     box-sizing: border-box;
-
     width: 840px;
-
 }
 
 .close {
@@ -705,12 +679,9 @@
     margin: 20px;
 }
 
-#purchase_btn {
+#puchaseBtn {
     width: 166px;
     height: 61px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
     border-radius: 4px;
     background-color: #00cbf6;
     color: #ffffff;
@@ -746,3 +717,36 @@
     background-position: center;
 }
 
+.people_say_text {
+    padding-top: 43px;
+    color: #bbbbbb;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.people_name_in_people_say {
+    padding-top: 43px;
+    color: #18cfab;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.people_job_title {
+    color: #bbbbbb;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.kotik {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
