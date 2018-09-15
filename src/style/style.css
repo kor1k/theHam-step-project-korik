@@ -17,7 +17,6 @@
     background-position: center;
 }
 
-
 .nav_bar {
     background-color: rgba(73, 71, 63, 0.5);
     /*position: fixed;*/
@@ -32,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .nav_bar_top_ul, .search_logo {
@@ -143,90 +143,6 @@
     align-items: center;
 }
 
-
-
-
-.features{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 20px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
-    text-align: left;;
-}
-.block-features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 370px;
-}
-
-.title_services {
-    padding-top: 82px;
-    color: #4e4e4e;
-    font-size: 36px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 40px;/* Приближение из-за подстановки шрифтов */
-    text-align: center;
-    padding-bottom: 37px;
-}
-
-.services_buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 15.98px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 40px;/* Приближение из-за подстановки шрифтов */
-    text-align: center;
-
-}
-.services_btn_2, .services_btn_3, .services_btn_4, .services_btn_5, .services_btn_6 {
-
-    display: flex;
-    /*background-color: #18CFAB;*/
-    background-color: lightgray;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 193px;
-    height: 73px;
-}
-
-.services_btn_1 {
-    background-color: #18cfab;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 193px;
-    height: 73px;
-}
-
-.service_img {
-    padding-top: 25px;
-    padding-left: 20px;
-}
-
-.service_text_block {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 1px gray;
-    color: #4e4e4e;
-    font-size: 20px;
-}
-
-.service_text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-
-}
-
 .purchase_bg {
     background-image: url("../images/purchase_block_bg.png");
     height: 470px;
@@ -275,21 +191,24 @@
     padding-top: 60px;
 }
 
-.features{
+.features {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.block-features{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.features_block1, .features_block2, .features_block3, .features_block4 {
     width: 480px;
     height: 370px;
-
 }
 
+.features_block1, .features_block3 {
+    background-color: green;
+}
+
+.features_block2, .features_block4 {
+    background-color: gainsboro;
+}
 
 .our_amazing_title {
     padding-top: 90px;
@@ -588,6 +507,7 @@
     align-items: center;
 
 }
+
 .block-features1{
     display: flex;
     justify-content: center;
@@ -606,7 +526,7 @@
     align-items: center;
     width: 480px;
     height: 370px;
-    background: #18CFAB url("../images/forma2.png") no-repeat center top 70px;
+    background: #18CFAB url("../images/forma2.png") no-repeat center top 80px;
     color: #ffffff;
     margin:auto;
     border-top: 5px solid #ffffff;
