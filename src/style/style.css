@@ -377,6 +377,7 @@
 
 .break_news {
     font-size: 40px;
+    padding-bottom: 130px;
 }
 
 /*.services {*/
@@ -601,9 +602,7 @@
     padding: 20px;
     border: 1px solid #888;
     box-sizing: border-box;
-
     width: 840px;
-
 }
 
 .close {
@@ -680,14 +679,74 @@
     margin: 20px;
 }
 
-#purchase_btn {
+#puchaseBtn {
     width: 166px;
     height: 61px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
     border-radius: 4px;
     background-color: #00cbf6;
+    color: #ffffff;
+    font-size: 13px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 31px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    /*transform: scaleX(1.001);*/
 }
 
+.people_say_bg {
+    height: 850px;
+    background-image: url("../images/bg_people_say.png");
+    background-size: cover;
+    background-position: center;
+}
 
+.people_say_title {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #ffffff;
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.kavichki {
+    background-image: url("../images/kavichki_people_say.png");
+    height: 36px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.people_say_text {
+    padding-top: 43px;
+    color: #bbbbbb;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.people_name_in_people_say {
+    padding-top: 43px;
+    color: #18cfab;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.people_job_title {
+    color: #bbbbbb;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.kotik {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
