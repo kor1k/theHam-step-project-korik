@@ -1,18 +1,29 @@
-let modal = document.getElementById('myModal');
-let btn = document.getElementById('puchaseBtn');
-let span = document.getElementsByClassName("close")[0];
+// let modal = document.getElementById('myModal');
+// let btn = document.getElementById('puchaseBtn');
+// let span = document.getElementsByClassName("close")[0];
+//
+// btn.onclick = function () {
+//     modal.style.display = "block";
+// };
+//
+// span.onclick = function () {
+//     modal.style.display = "none";
+// };
+//
+// window.onclick = function (event) {
+//     if (event.target == modal){
+//         modal.style.display = "none";
+//     }
+//
+// }
 
-btn.onclick = function () {
-    modal.style.display = "block";
-};
+(function($) {
+    $(function() {
+        $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+            $(this)
+                .addClass('active').siblings().removeClass('active')
+                .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+        });
 
-span.onclick = function () {
-    modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-    if (event.target == modal){
-        modal.style.display = "none";
-    }
-    
-}
+    });
+});

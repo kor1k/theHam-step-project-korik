@@ -1,27 +1,107 @@
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.7);
+/*!*.modal {*!*/
+/*!*display: none;*!*/
+/*!*position: fixed;*!*/
+/*!*z-index: 1;*!*/
+/*!*left: 0;*!*/
+/*!*top: 0;*!*/
+/*!*width: 100%;*!*/
+/*!*height: 100%;*!*/
+/*!*overflow: auto;*!*/
+/*!*background-color: rgba(0,0,0,0.7);*!*/
+/*!*}*!*/
+
+/*!*.modal-content {*!*/
+/*!*background-color: #fefefe;*!*/
+/*!*margin: 15% auto;*!*/
+/*!*padding: 20px;*!*/
+/*!*border: 1px solid #888;*!*/
+/*!*width: 80%;*!*/
+
+/*!*}*!*/
+
+/*!*.close {*!*/
+/*!*float: right;*!*/
+/*!*color: #aaa;*!*/
+/*!*font-size: 20px;*!*/
+/*!*font-weight: bold;*!*/
+/*!*}*!*/
+
+/*.container {*/
+    /*width: 1200px;*/
+    /*margin: 0 auto;*/
+    /*!*padding: 0 20px;*!*/
+/*}*/
+
+/*.title_services {*/
+    /*padding-top: 82px;*/
+    /*color: #4e4e4e;*/
+    /*font-size: 36px; !* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 400;*/
+    /*line-height: 40px; !* Приближение из-за подстановки шрифтов *!*/
+    /*text-align: center;*/
+    /*padding-bottom: 37px;*/
+/*}*/
+
+/*.services_buttons {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: #ffffff;*/
+    /*font-size: 15.98px; !* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 400;*/
+    /*line-height: 40px; !* Приближение из-за подстановки шрифтов *!*/
+    /*text-align: center;*/
+/*}*/
+
+/*.services_btn_2, .services_btn_3, .services_btn_4, .services_btn_5, .services_btn_6 {*/
+    /*display: flex;*/
+    /*!*background-color: #18CFAB;*!*/
+    /*background-color: #fffcfc;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: black;*/
+    /*width: 193px;*/
+    /*height: 73px;*/
+/*}*/
+
+/*.services_btn_1:active, .services_btn_2:active, .services_btn_3:active, .services_btn_4:active, .services_btn_5:active, .services_btn_6:active {*/
+    /*background-color: #18cfab;*/
+/*}*/
+
+/*.services_btn_1 {*/
+    /*background-color: #18cfab;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: black;*/
+    /*width: 193px;*/
+    /*height: 73px;*/
+/*}*/
+
+/*.testtest_content {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.service_text_block {*/
+    /*display: flex;*/
+    /*justify-content: right;*/
+
+/*}*/
+
+/*.service_image {*/
+    /*display: inline-block;*/
+/*}*/
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+.tabs__content {
+    display: none; /* по умолчанию прячем все блоки */
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-
-}
-
-.close {
-    float: right;
-    color: #aaa;
-    font-size: 20px;
-    font-weight: bold;
+.tabs__content.active {
+    display: block; /* по умолчанию показываем нужный блок */
 }
