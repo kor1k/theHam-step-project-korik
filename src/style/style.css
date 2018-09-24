@@ -491,7 +491,7 @@
     height: 208px;
 }
 
-.breaking_img_1:hover:after, .breaking_img_2:hover:after, .breaking_img_3:hover:after, .breaking_img_4:hover:after, .breaking_img_5:hover:after, .breaking_img_6:hover:after, .breaking_img_7:hover:after {
+.breaking_img_1:hover:after, .breaking_img_2:hover:after, .breaking_img_3:hover:after, .breaking_img_4:hover:after, .breaking_img_5:hover:after, .breaking_img_6:hover:after, .breaking_img_7:hover:after, .breaking_img_8:hover:after {
     background-color: #18cfab;
 }
 
@@ -906,7 +906,7 @@
 }
 
 .people_say_bg {
-    height: 850px;
+    height: 115vh;
     background-image: url("../images/bg_people_say.png");
     background-size: cover;
     background-position: center;
@@ -1132,7 +1132,7 @@ h2 {
     background-color: #18cfab;
     color: #FFF;
     position: relative;
-    border: solid lightcyan;
+    /*border: solid lightcyan;*/
     border-width: 2px 2px 0;
     /*border-radius: 5px 5px 0 0;*/
     text-align: center;
@@ -1166,8 +1166,6 @@ h2 {
 .tabs__content {
     display: none;
     background: #FFF;
-    border: 2px solid #7DCA86;
-    /*border-radius: 0 5px 5px 5px;*/
     padding: 7px 15px;
     padding-bottom: 100px;
     margin-bottom: 105px;
@@ -1219,7 +1217,21 @@ h2 {
 }
 
 /*////TABS////*/
+.vasya_pupkin {
+    color: #18cfab;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
 
+.vasya_pupkin_job {
+    color: #bbbbbb;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
 /*////////CAROUSEL////////*//*////////CAROUSEL////////*/
 
 ol, ul {
@@ -1273,7 +1285,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #fff;
     text-align: center;
     float: left;
-    width: 500px;
+    width: 476px;
     height: 300px;
     line-height: 300px;
 }
