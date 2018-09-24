@@ -433,7 +433,6 @@
 
 .breaking_by_admin, .breaking_amazing_img_post {
     display: inline-block;
-
     padding-left: 28px;
 }
 
@@ -442,7 +441,7 @@
 }
 
 .breaking_img_1, .breaking_img_2, .breaking_img_3, .breaking_img_4 {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -484,37 +483,62 @@
     height: 208px;
 }
 
-/*.breaking_img_5 {*/
-/*background-image: url("../images/layer_breaking_news_5.png");*/
-/*background-repeat: no-repeat;*/
-/*background-size: cover;*/
-/*width: 263px;*/
-/*height: 208px;*/
-/*}*/
+.breaking_img_5 {
+    background-image: url("../images/layer_breaking_news_5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+}
 
-/*.breaking_img_6 {*/
-/*background-image: url("../images/layer_breaking_news_6.png");*/
-/*background-repeat: no-repeat;*/
-/*background-size: cover;*/
-/*width: 263px;*/
-/*height: 208px;*/
-/*}*/
+.breaking_img_1:hover:after, .breaking_img_2:hover:after, .breaking_img_3:hover:after, .breaking_img_4:hover:after, .breaking_img_5:hover:after, .breaking_img_6:hover:after, .breaking_img_7:hover:after {
+    background-color: #18cfab;
+}
 
-/*.breaking_img_7 {*/
-/*background-image: url("../images/layer_breaking_news_7.png");*/
-/*background-repeat: no-repeat;*/
-/*background-size: cover;*/
-/*width: 263px;*/
-/*height: 208px;*/
-/*}*/
+.breaking_img_1:after, .breaking_img_2:after, .breaking_img_3:after, .breaking_img_4:after, .breaking_img_5:after, .breaking_img_6:after, .breaking_img_7:after, .breaking_img_8:after {
+    content: "";
+    display: block;
+    /*position: fixed; !* тоже могла бы быть абсолютной *!*/
+    top: 20px;
+    right: 100px;
+    left: 0;
+    height: 68px;
+    width: 66px;
+    z-index: 10;
+    background-color: #203e38;
+}
 
-/*.breaking_img_8 {*/
-/*background-image: url("../images/layer_breaking_news_8.png");*/
-/*background-repeat: no-repeat;*/
-/*background-size: cover;*/
-/*width: 263px;*/
-/*height: 208px;*/
-/*}*/
+{
+
+}
+
+.breaking_img_6 {
+    background-image: url("../images/layer_breaking_news_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+}
+
+.breaking_img_7 {
+    background-image: url("../images/layer_breaking_news_7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+}
+
+.breaking_img_8 {
+    background-image: url("../images/layer_breaking_news_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 263px;
+    height: 208px;
+}
+
+.breaking_img_5_section, .breaking_img_6_section, .breaking_img_7_section, .breaking_img_8_section {
+    margin-bottom: 100px;
+}
 
 /*.services {*/
 /*display: flex;*/
@@ -1196,9 +1220,6 @@ h2 {
 
 /*////TABS////*/
 
-
-
-
 /*////////CAROUSEL////////*//*////////CAROUSEL////////*/
 
 ol, ul {
@@ -1219,6 +1240,7 @@ caption, th, td {
 q, blockquote {
     quotes: none;
 }
+
 q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none;
@@ -1232,7 +1254,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
 }
 
-
 #slider {
     width: 500px;
     height: 300px;
@@ -1241,10 +1262,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
     position: relative;
 }
+
 #slider ul {
     overflow: hidden;
     *zoom: 1;
 }
+
 #slider ul li {
     font-size: 1.5em;
     color: #fff;
@@ -1254,6 +1277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 300px;
     line-height: 300px;
 }
+
 #slider a {
     display: block;
     position: absolute;
@@ -1268,9 +1292,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-decoration: none;
     background: #000;
 }
+
 #slider a#sliderNext {
     right: 0;
 }
+
 #slider a:hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
     opacity: 0.5;
@@ -1279,6 +1305,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #pager {
     text-align: center;
 }
+
 #pager a {
     display: inline-block;
     vertical-align: middle;
@@ -1299,8 +1326,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
 }
+
 #pager a:hover, #pager a.active {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
     opacity: 0.5;
 }
+
 /*////////CAROUSEL////////*//*////////CAROUSEL////////*/
