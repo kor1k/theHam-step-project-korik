@@ -492,13 +492,13 @@
 }
 
 .breaking_img_1:hover:after, .breaking_img_2:hover:after, .breaking_img_3:hover:after, .breaking_img_4:hover:after, .breaking_img_5:hover:after, .breaking_img_6:hover:after, .breaking_img_7:hover:after, .breaking_img_8:hover:after {
+    content: "FEB 12";
     background-color: #18cfab;
 }
 
 .breaking_img_1:after, .breaking_img_2:after, .breaking_img_3:after, .breaking_img_4:after, .breaking_img_5:after, .breaking_img_6:after, .breaking_img_7:after, .breaking_img_8:after {
-    content: "";
+    content: "Feb 12";
     display: block;
-    /*position: fixed; !* тоже могла бы быть абсолютной *!*/
     top: 20px;
     right: 100px;
     left: 0;
