@@ -1219,19 +1219,20 @@ h2 {
 /*////TABS////*/
 .vasya_pupkin {
     color: #18cfab;
-    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    line-height: 27px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
 
 .vasya_pupkin_job {
     color: #bbbbbb;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
-    line-height: 27px;/* Приближение из-за подстановки шрифтов */
+    line-height: 27px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
+
 /*////////CAROUSEL////////*//*////////CAROUSEL////////*/
 
 ol, ul {
